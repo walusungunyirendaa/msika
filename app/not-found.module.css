@@ -1,0 +1,26 @@
+.page {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  padding-top: 48px;
+}
+
+.code {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--accent-ink);
+}
+
+.title {
+  font-size: clamp(32px, 6vw, 52px);
+  letter-spacing: -0.045em;
+}
+
+.text {
+  color: var(--muted);
+  margin-bottom: 12px;
+}

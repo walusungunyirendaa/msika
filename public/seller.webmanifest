@@ -1,0 +1,16 @@
+{
+  "id": "/admin",
+  "name": "Msika Seller",
+  "short_name": "Msika Seller",
+  "description": "Manage your stock and prices.",
+  "start_url": "/admin",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3f3f1",
+  "theme_color": "#ffffff",
+  "icons": [
+    { "src": "/icons/seller-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/seller-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/seller-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

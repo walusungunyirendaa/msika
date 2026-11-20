@@ -1,0 +1,170 @@
+.block {
+  border-radius: 12px;
+  background: linear-gradient(90deg, var(--surface) 0%, #fafaf9 50%, var(--surface) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+
+.hero {
+  height: 520px;
+  border-radius: 0;
+  background: #1a1d1f;
+  animation: none;
+}
+
+.page {
+  padding-top: 48px;
+  padding-bottom: 96px;
+}
+
+.title {
+  width: 220px;
+  height: 36px;
+  margin-bottom: 24px;
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.chip {
+  width: 92px;
+  height: 40px;
+  border-radius: 999px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 12px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.photo {
+  aspect-ratio: 3 / 4;
+  border-radius: var(--radius);
+}
+
+.line {
+  height: 14px;
+  border-radius: 7px;
+}
+
+.short {
+  width: 60%;
+}
+
+.product {
+  display: grid;
+  gap: 28px;
+  padding-top: 72px;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.big {
+  height: 44px;
+  width: 70%;
+}
+
+.sizes {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.size {
+  height: 52px;
+}
+
+.button {
+  height: 52px;
+  border-radius: 999px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.admin {
+  min-height: 100vh;
+  background: var(--surface);
+}
+
+.adminBar {
+  height: 60px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+}
+
+.adminCards {
+  display: grid;
+  gap: 12px;
+}
+
+.adminCard {
+  height: 380px;
+  border-radius: 18px;
+  background: linear-gradient(90deg, #fbfbfa 0%, #ffffff 50%, #fbfbfa 100%);
+  background-size: 200% 100%;
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 100% 0;
+  }
+  to {
+    background-position: -100% 0;
+  }
+}
+
+@media (min-width: 720px) {
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 40px 20px;
+  }
+
+  .adminCards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+}
+
+@media (min-width: 900px) {
+  .product {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: 64px;
+  }
+}
+
+@media (min-width: 1040px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1080px) {
+  .adminCards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .block {
+    animation: none;
+  }
+}

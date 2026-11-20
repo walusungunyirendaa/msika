@@ -1,0 +1,44 @@
+.crumbs {
+  padding: 16px 0;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.back:hover {
+  color: var(--ink);
+}
+
+.more {
+  padding-top: 72px;
+}
+
+.moreTitle {
+  font-size: clamp(24px, 3.5vw, 30px);
+  margin-bottom: 24px;
+}
+
+.moreGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px 12px;
+}
+
+@media (min-width: 900px) {
+  .more {
+    padding-top: 112px;
+  }
+
+  .moreGrid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 40px 20px;
+  }
+}

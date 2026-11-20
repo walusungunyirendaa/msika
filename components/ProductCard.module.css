@@ -1,0 +1,83 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-decoration: none;
+  border-radius: var(--radius);
+}
+
+.media {
+  position: relative;
+}
+
+.card:hover img {
+  transform: scale(1.04);
+}
+
+.card:hover .media > div {
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.soldOut .media > div {
+  opacity: 0.6;
+}
+
+.tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--bg);
+  font-size: 12px;
+  font-weight: 600;
+  box-shadow: 0 1px 2px rgba(17, 17, 17, 0.08);
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0 2px;
+}
+
+.title {
+  font-family: var(--font-inter), sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+}
+
+.meta {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 8px;
+  margin-top: 6px;
+}
+
+.price {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.status {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.low {
+  color: var(--accent-ink);
+  font-weight: 600;
+}
+
+.out {
+  color: var(--muted);
+}

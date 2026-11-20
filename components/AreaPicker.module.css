@@ -1,0 +1,75 @@
+.wrap {
+  position: relative;
+}
+
+.inputRow {
+  position: relative;
+}
+
+.inputRow input {
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+}
+
+.icon {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--muted);
+  pointer-events: none;
+}
+
+.ok {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--accent);
+  pointer-events: none;
+}
+
+.list {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+  top: calc(100% + 6px);
+  max-height: 280px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 6px;
+  list-style: none;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--bg);
+  box-shadow: 0 16px 40px rgba(17, 17, 17, 0.12);
+}
+
+.option {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.active {
+  background: var(--surface);
+}
+
+.note {
+  margin-left: 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.fee {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--muted);
+}

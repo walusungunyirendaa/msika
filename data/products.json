@@ -1,0 +1,109 @@
+[
+  {
+    "slug": "arsenal-home",
+    "club": "Arsenal",
+    "kitName": "Home",
+    "price": 550,
+    "isNew": true,
+    "images": ["/jerseys/arsenal-home-v2.jpg"],
+    "stock": {
+      "S": 2,
+      "M": 0,
+      "L": 3,
+      "XL": 1,
+      "XXL": 0
+    },
+    "hidden": false
+  },
+  {
+    "slug": "man-united-blue",
+    "club": "Man United",
+    "kitName": "Away",
+    "price": 550,
+    "isNew": true,
+    "images": ["/jerseys/man-united-blue-v3.jpg"],
+    "stock": {
+      "S": 1,
+      "M": 2,
+      "L": 2,
+      "XL": 1,
+      "XXL": 0
+    },
+    "hidden": false
+  },
+  {
+    "slug": "liverpool-home",
+    "club": "Liverpool",
+    "kitName": "Home",
+    "price": 550,
+    "images": ["/jerseys/liverpool-home-v3.jpg"],
+    "stock": {
+      "S": 0,
+      "M": 2,
+      "L": 2,
+      "XL": 1,
+      "XXL": 0
+    },
+    "hidden": false
+  },
+  {
+    "slug": "man-united-home",
+    "club": "Man United",
+    "kitName": "Home",
+    "price": 550,
+    "images": ["/jerseys/man-united-home-v2.jpg"],
+    "stock": {
+      "S": 2,
+      "M": 3,
+      "L": 1,
+      "XL": 1,
+      "XXL": 0
+    },
+    "hidden": false
+  },
+  {
+    "slug": "arsenal-away",
+    "club": "Arsenal",
+    "kitName": "Away",
+    "price": 550,
+    "images": ["/jerseys/arsenal-away-v2.jpg"],
+    "stock": {
+      "S": 1,
+      "M": 1,
+      "L": 0,
+      "XL": 0,
+      "XXL": 0
+    },
+    "hidden": false
+  },
+  {
+    "slug": "real-madrid-home",
+    "club": "Real Madrid",
+    "kitName": "Home",
+    "price": 550,
+    "images": ["/jerseys/real-madrid-home-v2.jpg"],
+    "stock": {
+      "S": 1,
+      "M": 1,
+      "L": 2,
+      "XL": 2,
+      "XXL": 1
+    },
+    "hidden": false
+  },
+  {
+    "slug": "bayern-home",
+    "club": "Bayern Munich",
+    "kitName": "Home",
+    "price": 550,
+    "images": ["/jerseys/bayern-home-v2.jpg"],
+    "stock": {
+      "S": 1,
+      "M": 2,
+      "L": 1,
+      "XL": 0,
+      "XXL": 0
+    },
+    "hidden": false
+  }
+]

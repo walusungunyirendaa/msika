@@ -1,0 +1,29 @@
+.logo {
+  display: inline-flex;
+  align-items: baseline;
+  font-family: var(--font-sora), sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  color: var(--logo-ink, var(--ink));
+  --logo-bg: var(--bg);
+}
+
+.i {
+  position: relative;
+  display: inline-block;
+}
+
+.tag {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0.26em;
+  height: 0.26em;
+  transform: translateX(-46%);
+  overflow: visible;
+}
+
+.hole {
+  fill: var(--logo-bg, #ffffff);
+}
